@@ -159,6 +159,18 @@ body.dark #moon{
     opacity: 0;
 }
 
+body.dark nav {
+    background-color: #121212;
+}
+
+body.dark .nav-link {
+    color: #f4f4f4;
+}
+
+body.dark .nav-name {
+    color: #f4f4f4; /* Change the logo text color in dark mode */
+}
+
 .wrapper{
     padding-inline: 10vw;
 }
@@ -468,7 +480,7 @@ i{
     width: 40%;
 }
 
-.skill-per.php{
+.skill-per.python{
     animation-delay: .1s;
     width: 20%;
 }

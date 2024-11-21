@@ -3,86 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio.io</title>
+    <title>MHA | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
 </head>
 <body>
-        <section class="container">
-            <nav id="header">
-                <section class="nav-logo">
-                    <a class="nav-name" href="#home">Logo</a>
+    <section class="container">
+        <nav id="header">
+            <section class="nav-logo">
+                <a class="nav-name" href="#home">MHA</a>
+            </section>
+            <section class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <section class="circle"></section>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <section class="circle"></section>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <section class="circle"></section>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <section class="circle"></section>
+                    </li>
+                </ul>
+            </section>
+            <section class="mode">
+                <section class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
                 </section>
-                <section class="nav-menu" id="myNavMenu">
-                    <ul class="nav_menu_list">
-                        <li class="nav_list">
-                            <a href="#home" class="nav-link active-link">Home</a>
-                            <section class="circle"></section>
-                        </li>
-                        <li class="nav_list">
-                            <a href="#about" class="nav-link">About</a>
-                            <section class="circle"></section>
-                        </li>
-                        <li class="nav_list">
-                            <a href="#projects" class="nav-link">Projects</a>
-                            <section class="circle"></section>
-                        </li>
-                        <li class="nav_list">
-                            <a href="#contact" class="nav-link">Contact</a>
-                            <section class="circle"></section>
-                        </li>
-                    </ul>
-                </section>
-                <section class="mode">
-                    <section class="moon-sun" id="toggle-switch">
-                        <i class="fa fa-moon" id="moon"></i>
-                        <i class="fa fa-sun" id="sun"></i>
-                    </section>
-                </section>
-                <section class="nav-menu-btn">
-                    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-                </section>
-            </nav>
+            </section>
+            <section class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="toggleMenu()"></i>
+            </section>
+        </nav>
 
         <main class="wrapper">
             <section class="featured-box" id="home">
                 <section class="featured-text">
-
                     <section class="hello">
-                        <p>Hi,I'm</p>
+                        <p>Hi, I'm</p>
                     </section>
-
                     <section class="featured-name">
                         <span class="typedText"></span>
                     </section>
-
                     <section class="textinfo">
-                        <p>My name is Hashir,I'm a Web Developer for more than 7 days</p>
+                        <p>My name is Hashir, I'm a Software Engineer with over 1 year of experience.</p>
                     </section>
-
                     <section class="text-btn">
                         <button class="btn hire-btn">Hire Me</button>
-                        <button class="btn ">Download CV<i class="uil uil-file"></i></button>
+                        <button class="btn">Download CV <i class="uil uil-file"></i></button>
                     </section>
-
                     <section class="social-icons">
                         <section class="icon-circle"></section>
-                        <section class="icon"><i class="uil uil-instagram"></i></section>
-                        <section class="icon"><i class="uil uil-linkedin-alt"></i></section>
-                        <section class="icon"><i class="uil uil-behance-alt"></i></section>
-                        <section class="icon"><i class="uil uil-github-alt"></i></section>
+                        <a href="https://www.instagram.com/mhashirabdullah/" class="icon" target="_blank"><i class="uil uil-instagram"></i></a>
+                        <a href="https://pk.linkedin.com/in/muhammad-hashir-abdullah-2b7271240" class="icon" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://www.behance.net" class="icon" target="_blank"><i class="uil uil-behance-alt"></i></a>
+                        <a href="https://github.com/HashirAbdulah" class="icon" target="_blank"><i class="uil uil-github-alt"></i></a>
                     </section>
                 </section>
 
                 <section class="featured-image">
                     <section class="image">
-                        <img src="assets/profile-pic.jpg" alt="">
+                        <img src="profile-pic.jpg" alt="Profile Picture">
                     </section>
                 </section>
-
             </section>
-
 
             <section class="section" id="about">
                 <section class="top-header">
@@ -91,16 +84,18 @@
                 <section class="row">
                     <section class="col">
                         <section class="about-info">
-                            <figure class="about-me"> 
+                            <figure class="about-me">
                                 <figcaption>
-                                    <img src="assets/profile-pic.jpg" alt="" class="profile"/>
+                                    <img src="profile-pic.jpg" alt="Profile" class="profile"/>
                                     <h2>Web Developer</h2>
-                                    <p>My name is Hashir,I'm a Web Developer for more than 7 days</p>
+                                    <p>My name is Hashir, I'm a Web Developer with over 1 year of experience.</p>
+                                </figcaption>
                             </figure>
                             <button class="about-me-btn">Hire Me</button>
                         </section>
                     </section>
                     <section class="skill">
+                        <!-- Skill Bars -->
                         <section class="skill-box">
                             <span class="title">HTML</span>
                             <section class="skill-bar html">
@@ -109,45 +104,42 @@
                                 </span>
                             </section>
                         </section>
-                        
                         <section class="skill-box">
                             <span class="title">CSS</span>
                             <section class="skill-bar css">
                                 <span class="skill-per">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </section>
+                        </section>
+                        <section class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <section class="skill-bar javaScript">
+                                <span class="skill-per">
                                     <span class="tooltip">60%</span>
                                 </span>
                             </section>
-
-                        </section><section class="skill-box">
-                            <span class="title">JavaScript</span>
-                            <section class="skill-bar">
-                                <span class="skill-per javaScript">
-                                    <span class="tooltip">40%</span>
-                                </span>
-                            </section>
                         </section>
-
                         <section class="skill-box">
-                            <span class="title">Php</span>
-                            <section class="skill-bar">
-                                <span class="skill-per php">
-                                    <span class="tooltip">20%</span>
-                                </span>
-                            </section>
-                        </section>
-
-                        <section class="skill-box">
-                            <span class="title">Java</span>
-                            <section class="skill-bar">
-                                <span class="skill-per java">
+                            <span class="title">Python</span>
+                            <section class="skill-bar python">
+                                <span class="skill-per">
                                     <span class="tooltip">75%</span>
                                 </span>
                             </section>
                         </section>
-
+                        <section class="skill-box">
+                            <span class="title">Java</span>
+                            <section class="skill-bar java">
+                                <span class="skill-per">
+                                    <span class="tooltip">85%</span>
+                                </span>
+                            </section>
+                        </section>
                     </section>
                 </section>
             </section>
+            
 
             <section class="section" id="projects">
                 <div class="top-header">
@@ -157,13 +149,13 @@
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
                         <h3>Completed</h3>
-                        <label>10+ Finished Projects</label>
+                        <label>2 Finished Projects</label>
                     </div>
 
                     <div class="project-box">
                         <i class="uil uil-users-alt"></i>
                         <h3>Clients</h3>
-                        <label>10+ Happy Clients</label>
+                        <label>2+ Happy Clients</label>
                     </div>
                     
                     <div class="project-box">
@@ -183,8 +175,8 @@
                     <div class="col">
                         <div class="contact-info">
                             <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
-                            <p><i class="uil uil-envelope"></i>hashirabdullah@outlook.com</p>
-                            <p><i class="uil uil-phone"></i>+1-00xxxxx</p>
+                            <p><i class="uil uil-envelope"></i>hashirabdullah46@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>+92-3211197160</p>
                         </div>
                     </div>
 
