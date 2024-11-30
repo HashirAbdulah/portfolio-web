@@ -1,4 +1,4 @@
-# Portfolio.io
+# Portfolio
 
 ## Description
 This project is a personal portfolio website template designed for showcasing the creator's skills, projects, and contact information. It includes HTML, CSS, and JavaScript code to create an interactive and visually appealing portfolio website.
