@@ -29,8 +29,3 @@ To use this portfolio template, follow these steps:
 - Additional libraries used:
   - Font Awesome
   - Unicons
-  - Typed.js
-  - ScrollReveal.js
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
